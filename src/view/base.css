@@ -1,0 +1,31 @@
+.view{
+    background-color: whitesmoke;
+}
+.confirm_top{
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    float: left;
+    margin-left: -30px;
+}
+.up_right{
+    float: right;
+    position: relative;
+    top: 40px;
+    right: 15px;
+
+}
+.worksheets{
+    position: relative;
+    top: 140px;
+    left: 50px;
+}
+.confirm_bot{
+    position: absolute;
+    top: 735px;
+    left: 25px;
+}
+.table{
+    position: absolute;
+    left: -35px;
+}
