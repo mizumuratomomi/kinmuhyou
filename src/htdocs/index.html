@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>勤務表</title>
-    <link rel="stylesheet" type="text/css" href="base.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/common/base.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
 </head>
 <body>
     <div class="view">
@@ -169,6 +169,141 @@
                 <tr>
                     <td>15</td>
                     <td>火</td>
+                    <td><select class="form-control input-sm" data-bind="options: $parent.validationArray, optionsText: 'text', optionsValue: 'value', value: notice, enable: $parent.isEditable"><option value=""></option><option value="年休">年休</option><option value="年休(午前)">年休(午前)</option><option value="年休(午後)">年休(午後)</option><option value="遅刻">遅刻</option><option value="早退">早退</option><option value="休出">休出</option><option value="代休">代休</option><option value="夏休">夏休</option><option value="慶弔">慶弔</option><option value="欠勤">欠勤</option><option value="免除">免除</option></select></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm" data-bind="value: remarks, enable: $parent.isEditable"></td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td>水</td>
+                    <td><select class="form-control input-sm" data-bind="options: $parent.validationArray, optionsText: 'text', optionsValue: 'value', value: notice, enable: $parent.isEditable"><option value=""></option><option value="年休">年休</option><option value="年休(午前)">年休(午前)</option><option value="年休(午後)">年休(午後)</option><option value="遅刻">遅刻</option><option value="早退">早退</option><option value="休出">休出</option><option value="代休">代休</option><option value="夏休">夏休</option><option value="慶弔">慶弔</option><option value="欠勤">欠勤</option><option value="免除">免除</option></select></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm" data-bind="value: remarks, enable: $parent.isEditable"></td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td>木</td>
+                    <td><select class="form-control input-sm" data-bind="options: $parent.validationArray, optionsText: 'text', optionsValue: 'value', value: notice, enable: $parent.isEditable"><option value=""></option><option value="年休">年休</option><option value="年休(午前)">年休(午前)</option><option value="年休(午後)">年休(午後)</option><option value="遅刻">遅刻</option><option value="早退">早退</option><option value="休出">休出</option><option value="代休">代休</option><option value="夏休">夏休</option><option value="慶弔">慶弔</option><option value="欠勤">欠勤</option><option value="免除">免除</option></select></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm" data-bind="value: remarks, enable: $parent.isEditable"></td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>金</td>
+                    <td><select class="form-control input-sm" data-bind="options: $parent.validationArray, optionsText: 'text', optionsValue: 'value', value: notice, enable: $parent.isEditable"><option value=""></option><option value="年休">年休</option><option value="年休(午前)">年休(午前)</option><option value="年休(午後)">年休(午後)</option><option value="遅刻">遅刻</option><option value="早退">早退</option><option value="休出">休出</option><option value="代休">代休</option><option value="夏休">夏休</option><option value="慶弔">慶弔</option><option value="欠勤">欠勤</option><option value="免除">免除</option></select></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm" data-bind="value: remarks, enable: $parent.isEditable"></td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td>土</td>
+                    <td><select class="form-control input-sm" data-bind="options: $parent.validationArray, optionsText: 'text', optionsValue: 'value', value: notice, enable: $parent.isEditable"><option value=""></option><option value="年休">年休</option><option value="年休(午前)">年休(午前)</option><option value="年休(午後)">年休(午後)</option><option value="遅刻">遅刻</option><option value="早退">早退</option><option value="休出">休出</option><option value="代休">代休</option><option value="夏休">夏休</option><option value="慶弔">慶弔</option><option value="欠勤">欠勤</option><option value="免除">免除</option></select></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm" data-bind="value: remarks, enable: $parent.isEditable"></td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>日</td>
+                    <td><select class="form-control input-sm" data-bind="options: $parent.validationArray, optionsText: 'text', optionsValue: 'value', value: notice, enable: $parent.isEditable"><option value=""></option><option value="年休">年休</option><option value="年休(午前)">年休(午前)</option><option value="年休(午後)">年休(午後)</option><option value="遅刻">遅刻</option><option value="早退">早退</option><option value="休出">休出</option><option value="代休">代休</option><option value="夏休">夏休</option><option value="慶弔">慶弔</option><option value="欠勤">欠勤</option><option value="免除">免除</option></select></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm" data-bind="value: remarks, enable: $parent.isEditable"></td>
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td>月</td>
+                    <td><select class="form-control input-sm" data-bind="options: $parent.validationArray, optionsText: 'text', optionsValue: 'value', value: notice, enable: $parent.isEditable"><option value=""></option><option value="年休">年休</option><option value="年休(午前)">年休(午前)</option><option value="年休(午後)">年休(午後)</option><option value="遅刻">遅刻</option><option value="早退">早退</option><option value="休出">休出</option><option value="代休">代休</option><option value="夏休">夏休</option><option value="慶弔">慶弔</option><option value="欠勤">欠勤</option><option value="免除">免除</option></select></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm" data-bind="value: remarks, enable: $parent.isEditable"></td>
+                </tr>
+                <tr>
+                    <td>22</td>
+                    <td>火</td>
+                    <td><select class="form-control input-sm" data-bind="options: $parent.validationArray, optionsText: 'text', optionsValue: 'value', value: notice, enable: $parent.isEditable"><option value=""></option><option value="年休">年休</option><option value="年休(午前)">年休(午前)</option><option value="年休(午後)">年休(午後)</option><option value="遅刻">遅刻</option><option value="早退">早退</option><option value="休出">休出</option><option value="代休">代休</option><option value="夏休">夏休</option><option value="慶弔">慶弔</option><option value="欠勤">欠勤</option><option value="免除">免除</option></select></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm" data-bind="value: remarks, enable: $parent.isEditable"></td>
+                </tr>
+                <tr>
+                    <td>23</td>
+                    <td>水</td>
+                    <td><select class="form-control input-sm" data-bind="options: $parent.validationArray, optionsText: 'text', optionsValue: 'value', value: notice, enable: $parent.isEditable"><option value=""></option><option value="年休">年休</option><option value="年休(午前)">年休(午前)</option><option value="年休(午後)">年休(午後)</option><option value="遅刻">遅刻</option><option value="早退">早退</option><option value="休出">休出</option><option value="代休">代休</option><option value="夏休">夏休</option><option value="慶弔">慶弔</option><option value="欠勤">欠勤</option><option value="免除">免除</option></select></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm" data-bind="value: remarks, enable: $parent.isEditable"></td>
+                </tr>
+                <tr>
+                    <td>24</td>
+                    <td>木</td>
+                    <td><select class="form-control input-sm" data-bind="options: $parent.validationArray, optionsText: 'text', optionsValue: 'value', value: notice, enable: $parent.isEditable"><option value=""></option><option value="年休">年休</option><option value="年休(午前)">年休(午前)</option><option value="年休(午後)">年休(午後)</option><option value="遅刻">遅刻</option><option value="早退">早退</option><option value="休出">休出</option><option value="代休">代休</option><option value="夏休">夏休</option><option value="慶弔">慶弔</option><option value="欠勤">欠勤</option><option value="免除">免除</option></select></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm" data-bind="value: remarks, enable: $parent.isEditable"></td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td>金</td>
+                    <td><select class="form-control input-sm" data-bind="options: $parent.validationArray, optionsText: 'text', optionsValue: 'value', value: notice, enable: $parent.isEditable"><option value=""></option><option value="年休">年休</option><option value="年休(午前)">年休(午前)</option><option value="年休(午後)">年休(午後)</option><option value="遅刻">遅刻</option><option value="早退">早退</option><option value="休出">休出</option><option value="代休">代休</option><option value="夏休">夏休</option><option value="慶弔">慶弔</option><option value="欠勤">欠勤</option><option value="免除">免除</option></select></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm" data-bind="value: remarks, enable: $parent.isEditable"></td>
+                </tr>
+                <tr>
+                    <td>26</td>
+                    <td>土</td>
+                    <td><select class="form-control input-sm" data-bind="options: $parent.validationArray, optionsText: 'text', optionsValue: 'value', value: notice, enable: $parent.isEditable"><option value=""></option><option value="年休">年休</option><option value="年休(午前)">年休(午前)</option><option value="年休(午後)">年休(午後)</option><option value="遅刻">遅刻</option><option value="早退">早退</option><option value="休出">休出</option><option value="代休">代休</option><option value="夏休">夏休</option><option value="慶弔">慶弔</option><option value="欠勤">欠勤</option><option value="免除">免除</option></select></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm" data-bind="value: remarks, enable: $parent.isEditable"></td>
+                </tr>
+                <tr>
+                    <td>27</td>
+                    <td>日</td>
+                    <td><select class="form-control input-sm" data-bind="options: $parent.validationArray, optionsText: 'text', optionsValue: 'value', value: notice, enable: $parent.isEditable"><option value=""></option><option value="年休">年休</option><option value="年休(午前)">年休(午前)</option><option value="年休(午後)">年休(午後)</option><option value="遅刻">遅刻</option><option value="早退">早退</option><option value="休出">休出</option><option value="代休">代休</option><option value="夏休">夏休</option><option value="慶弔">慶弔</option><option value="欠勤">欠勤</option><option value="免除">免除</option></select></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm" data-bind="value: remarks, enable: $parent.isEditable"></td>
+                </tr>
+                <tr>
+                    <td>28</td>
+                    <td>月</td>
+                    <td><select class="form-control input-sm" data-bind="options: $parent.validationArray, optionsText: 'text', optionsValue: 'value', value: notice, enable: $parent.isEditable"><option value=""></option><option value="年休">年休</option><option value="年休(午前)">年休(午前)</option><option value="年休(午後)">年休(午後)</option><option value="遅刻">遅刻</option><option value="早退">早退</option><option value="休出">休出</option><option value="代休">代休</option><option value="夏休">夏休</option><option value="慶弔">慶弔</option><option value="欠勤">欠勤</option><option value="免除">免除</option></select></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm" data-bind="value: remarks, enable: $parent.isEditable"></td>
+                </tr>
+                <tr>
+                    <td>29</td>
+                    <td>火</td>
+                    <td><select class="form-control input-sm" data-bind="options: $parent.validationArray, optionsText: 'text', optionsValue: 'value', value: notice, enable: $parent.isEditable"><option value=""></option><option value="年休">年休</option><option value="年休(午前)">年休(午前)</option><option value="年休(午後)">年休(午後)</option><option value="遅刻">遅刻</option><option value="早退">早退</option><option value="休出">休出</option><option value="代休">代休</option><option value="夏休">夏休</option><option value="慶弔">慶弔</option><option value="欠勤">欠勤</option><option value="免除">免除</option></select></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
+                    <td><input type="text" class="form-control input-sm" data-bind="value: remarks, enable: $parent.isEditable"></td>
+                </tr>
+                <tr>
+                    <td>30</td>
+                    <td>水</td>
                     <td><select class="form-control input-sm" data-bind="options: $parent.validationArray, optionsText: 'text', optionsValue: 'value', value: notice, enable: $parent.isEditable"><option value=""></option><option value="年休">年休</option><option value="年休(午前)">年休(午前)</option><option value="年休(午後)">年休(午後)</option><option value="遅刻">遅刻</option><option value="早退">早退</option><option value="休出">休出</option><option value="代休">代休</option><option value="夏休">夏休</option><option value="慶弔">慶弔</option><option value="欠勤">欠勤</option><option value="免除">免除</option></select></td>
                     <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
                     <td><input type="text" class="form-control input-sm attend-td-time" data-bind="value: start, enable: $parent.isEditable, event: { focus: $parent.focusStartListener }"></td>
